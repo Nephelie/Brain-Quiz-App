@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#030a39</color>
+    <color name="colorPrimaryDark">#070e31</color>
+    <color name="colorAccent">#4de2ea</color>
+    <color name="backgroundBlackTransparent">#80000000</color>
+    <color name="lightPink">#fad9eb</color>
+    <color name="ColorBlack">#000000</color>
+    <color name="WhiteColor">#FFFFFF</color>
+    <color name="backgroundBlue">#8001579B</color>
+    <color name="backgroundTransparent">#80FFFFFF</color>
+    <color name="transparentPink">#80fad9eb</color>
+
+    <!-- Colors of Submit Button.-->
+    <color name="startColorButton">#5c86c4</color>
+    <color name="endColorButton">#050505</color>
+</resources>

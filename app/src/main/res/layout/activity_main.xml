@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.example.android.quizapp.MainActivity">
+
+    <ImageView
+        style="@style/ImageViewStyle"
+        android:contentDescription="@string/brain_ClipArt"
+        android:src="@drawable/neurons"/>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.example.android.quizapp.MainActivity">
+
+        <LinearLayout style="@style/LinearLayoutStyle">
+
+            <TextView
+                style="@style/IntroTextView"
+                android:layout_margin="@dimen/layout_marginIntroTextView"
+                android:text="@string/How_well_do_you_know_the_human_brain_nLet_s_find_out"/>
+
+            <TextView
+                style="@style/QuestionTextView"
+                android:layout_marginBottom="@dimen/layout_marginBottomQuestion"
+                android:layout_marginLeft="@dimen/layout_marginLeftQuestion"
+                android:layout_marginRight="@dimen/layout_marginRightQuestion"
+                android:layout_marginTop="@dimen/layout_marginTopQuestion"
+                android:text="@string/How_long_can_the_brain_survive_without_oxygen"/>
+
+            <CheckBox
+                android:id="@+id/minutes5"
+                style="@style/CheckBoxStyle"
+                android:layout_marginLeft="@dimen/layout_marginLeftAnswer"
+                android:layout_marginRight="@dimen/layout_marginRightAnswer"
+                android:text="@string/_5_minutes"/>
+
+            <CheckBox
+                android:id="@+id/minutes10"
+                style="@style/CheckBoxStyle"
+                android:layout_marginLeft="@dimen/layout_marginLeftAnswer"
+                android:layout_marginRight="@dimen/layout_marginRightAnswer"
+                android:text="@string/_10_minutes"/>
+
+            <CheckBox
+                android:id="@+id/minutes15"
+                style="@style/CheckBoxStyle"
+                android:layout_marginLeft="@dimen/layout_marginLeftAnswer"
+                android:layout_marginRight="@dimen/layout_marginRightAnswer"
+                android:text="@string/_15_minutes"/>
+
+
+            <TextView
+                style="@style/QuestionTextView"
+                android:layout_marginBottom="@dimen/layout_marginBottomQuestion"
+                android:layout_marginLeft="@dimen/layout_marginLeftQuestion"
+                android:layout_marginRight="@dimen/layout_marginRightQuestion"
+                android:layout_marginTop="@dimen/layout_marginTopQuestion"
+                android:text="@string/Which_is_the_percentage_of_body_s_total_energy_and_oxygen_that_the_typical_brain_uses"/>
+
+            <RadioGroup
+                style="@style/RadioGroupStyle"
+                android:layout_marginLeft="@dimen/layout_marginLeftAnswer"
+                android:layout_marginRight="@dimen/layout_marginRightAnswer">
+
+                <RadioButton
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/_15"/>
+
+                <RadioButton
+                    android:id="@+id/percent20"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/_20"/>
+
+                <RadioButton
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/_50"/>
+
+            </RadioGroup>
+
+            <TextView
+                style="@style/QuestionTextView"
+                android:layout_marginBottom="@dimen/layout_marginBottomQuestion"
+                android:layout_marginLeft="@dimen/layout_marginLeftQuestion"
+                android:layout_marginRight="@dimen/layout_marginRightQuestion"
+                android:layout_marginTop="@dimen/layout_marginTopQuestion"
+                android:text="@string/What_is_the_scientific_name_for_brain_freeze"/>
+
+            <EditText
+                android:id="@+id/brain_freeze_editText"
+                style="@style/EditTextStyle"
+                android:layout_marginLeft="@dimen/layout_marginLeftAnswer"
+                android:layout_marginRight="@dimen/layout_marginRightAnswer"
+                android:hint="@string/Answer"/>
+
+            <TextView
+                style="@style/QuestionTextView"
+                android:layout_marginBottom="@dimen/layout_marginBottomQuestion"
+                android:layout_marginLeft="@dimen/layout_marginLeftQuestion"
+                android:layout_marginRight="@dimen/layout_marginRightQuestion"
+                android:layout_marginTop="@dimen/layout_marginTopQuestion"
+                android:text="@string/True_or_False_All_brain_cells_are_not_alike"/>
+
+            <RadioGroup
+                style="@style/RadioGroupStyle"
+                android:layout_marginLeft="@dimen/layout_marginLeftAnswer"
+                android:layout_marginRight="@dimen/layout_marginRightAnswer">
+
+                <RadioButton
+                    android:id="@+id/question4True"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/True"/>
+
+                <RadioButton
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/False"/>
+
+            </RadioGroup>
+
+            <TextView
+                style="@style/QuestionTextView"
+                android:layout_marginBottom="@dimen/layout_marginBottomQuestion"
+                android:layout_marginLeft="@dimen/layout_marginLeftQuestion"
+                android:layout_marginRight="@dimen/layout_marginRightQuestion"
+                android:layout_marginTop="@dimen/layout_marginTopQuestion"
+                android:text="@string/Male_brains_on_average_have_a_total_volume_that_is_between_larger_than_that_of_females"/>
+
+            <CheckBox
+                android:id="@+id/percent810"
+                style="@style/CheckBoxStyle"
+                android:layout_marginLeft="@dimen/layout_marginLeftAnswer"
+                android:layout_marginRight="@dimen/layout_marginRightAnswer"
+                android:text="@string/_8_10"/>
+
+            <CheckBox
+                android:id="@+id/percent1013"
+                style="@style/CheckBoxStyle"
+                android:layout_marginLeft="@dimen/layout_marginLeftAnswer"
+                android:layout_marginRight="@dimen/layout_marginRightAnswer"
+                android:text="@string/_10_13"/>
+
+            <CheckBox
+                android:id="@+id/percent1416"
+                style="@style/CheckBoxStyle"
+                android:layout_marginLeft="@dimen/layout_marginLeftAnswer"
+                android:layout_marginRight="@dimen/layout_marginRightAnswer"
+                android:text="@string/_14_16"/>
+
+            <TextView
+                style="@style/QuestionTextView"
+                android:layout_marginBottom="@dimen/layout_marginBottomQuestion"
+                android:layout_marginLeft="@dimen/layout_marginLeftQuestion"
+                android:layout_marginRight="@dimen/layout_marginRightQuestion"
+                android:layout_marginTop="@dimen/layout_marginTopQuestion"
+                android:text="@string/True_or_False_The_brain_can_t_actually_feel_pain_despite_its_bilions_of_neurons"/>
+
+            <RadioGroup
+                style="@style/RadioGroupStyle"
+                android:layout_marginLeft="@dimen/layout_marginLeftAnswer"
+                android:layout_marginRight="@dimen/layout_marginRightAnswer">
+
+                <RadioButton
+                    android:id="@+id/question6True"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/True"/>
+
+                <RadioButton
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/False"/>
+
+            </RadioGroup>
+
+            <TextView
+                style="@style/QuestionTextView"
+                android:layout_marginBottom="@dimen/layout_marginBottomQuestion"
+                android:layout_marginLeft="@dimen/layout_marginLeftQuestion"
+                android:layout_marginRight="@dimen/layout_marginRightQuestion"
+                android:layout_marginTop="@dimen/layout_marginTopQuestion"
+                android:text="@string/What_is_the_scientific_name_of_surgical_procedure_in_which_one_hemisphere_is_removed"/>
+
+            <EditText
+                android:id="@+id/hemisphere_editText"
+                style="@style/EditTextStyle"
+                android:layout_marginLeft="@dimen/layout_marginLeftAnswer"
+                android:layout_marginRight="@dimen/layout_marginRightAnswer"
+                android:hint="@string/Answer"/>
+
+            <TextView
+                style="@style/QuestionTextView"
+                android:layout_marginBottom="@dimen/layout_marginBottomQuestion"
+                android:layout_marginLeft="@dimen/layout_marginLeftQuestion"
+                android:layout_marginRight="@dimen/layout_marginRightQuestion"
+                android:layout_marginTop="@dimen/layout_marginTopQuestion"
+                android:text="@string/How_many_pounds_did_Albert_Einstein_s_brain_weigh"/>
+
+            <RadioGroup
+                style="@style/RadioGroupStyle"
+                android:layout_marginLeft="@dimen/layout_marginLeftAnswer"
+                android:layout_marginRight="@dimen/layout_marginRightAnswer">
+
+                <RadioButton
+                    android:id="@+id/pounds271"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/_2_71_pounds"/>
+
+                <RadioButton
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/_3_05_pounds"/>
+
+                <RadioButton
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/_3_85_pounds"/>
+
+            </RadioGroup>
+
+            <Button
+                style="@style/SubmitButtonStyle"
+                android:layout_marginBottom="@dimen/layout_marginBottomButton"
+                android:layout_marginTop="@dimen/layout_marginTopButton"
+                android:onClick="Submit"
+                android:text="@string/Submit"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Introduction TextView dimensions.-->
+    <dimen name="layout_marginIntroTextView">20dp</dimen>
+
+    <!--Question TextView dimensions.-->
+    <dimen name="layout_marginTopQuestion">16dp</dimen>
+    <dimen name="layout_marginRightQuestion">16dp</dimen>
+    <dimen name="layout_marginLeftQuestion">16dp</dimen>
+    <dimen name="layout_marginBottomQuestion">8dp</dimen>
+
+    <!--CheckBox, RadioGroup and EditText dimensions.-->
+    <dimen name="layout_marginLeftAnswer">10dp</dimen>
+    <dimen name="layout_marginRightAnswer">10dp</dimen>
+
+    <!--Submit Button dimensions.-->
+    <dimen name="layout_marginBottomButton">16dp</dimen>
+    <dimen name="layout_marginTopButton">16dp</dimen>
+
+</resources>

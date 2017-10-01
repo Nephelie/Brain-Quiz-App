@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Brain Quiz</string>
+    <string name="Answer">Απάντηση</string>
+    <string name="Congratulations_">Συγχαρητήρια!!!</string>
+    <string name="Excellent_">Εξαιρετικά!!!</string>
+    <string name="False">Λάθος</string>
+    <string name="Good_">Καλά!</string>
+    <string name="Great_">Πολύ Καλά!!!</string>
+    <string name="Hemispherectomy">Ημισφαιρεκτομή</string>
+    <string name="How_long_can_the_brain_survive_without_oxygen">Πόσα λεπτά μπορεί ο εγκέφαλος να επιβιώσει χωρίς οξυγόνο;</string>
+    <string name="How_many_pounds_did_Albert_Einstein_s_brain_weigh">Πόσο ζύγιζε ο εγκέφαλος του Άλμπερτ Αϊνστάιν;</string>
+    <string name="How_well_do_you_know_the_human_brain_nLet_s_find_out">Πόσο καλά γνωρίζεις τον ανθρώπινο εγκέφαλο;</string>
+    <string name="Male_brains_on_average_have_a_total_volume_that_is_between_larger_than_that_of_females">"Οι αρσενικοί εγκέφαλοι, κατά μέσο όρο, έχουν συνολικό όγκο που είναι μεταξύ____μεγαλύτερος από αυτόν των θηλυκών. "</string>
+    <string name="No_brain_found">Δεν βρέθηκε εγκέφαλος!</string>
+    <string name="Not_so_Good_">Όχι τόσο καλά!</string>
+    <string name="Sphenopalatine_Ganglioneuralgia">Σφηνοϋπερώια Γαγγλιονευραλγία</string>
+    <string name="Submit">Υποβολη</string>
+    <string name="True">Σωστό</string>
+    <string name="True_or_False_All_brain_cells_are_not_alike">Σωστό ή Λάθος: Τα εγκεφαλικά κύτταρα δεν είναι όλα όμοια μεταξύ τους.</string>
+    <string name="True_or_False_The_brain_can_t_actually_feel_pain_despite_its_bilions_of_neurons">Σωστό ή Λαθος: Ο εγκέφαλος στην πραγματικότητα δεν μπορεί να νιώσει πόνο παρά τους δισεκατομμύριους νευρώνες.</string>
+    <string name="What_is_the_scientific_name_for_brain_freeze">Ποια είναι η επιστημονική ονομασία του Πονοκέφαλου Ψυχρού Ερεθίσματος;</string>
+    <string name="What_is_the_scientific_name_of_surgical_procedure_in_which_one_hemisphere_is_removed">Ποια είναι η επιστημονική ονομασία της επέμβασης κατά την οποία αφαιρείται το μισό ημισφαίριο του εγκεφάλου;</string>
+    <string name="Which_is_the_percentage_of_body_s_total_energy_and_oxygen_that_the_typical_brain_uses">Ποιο είναι το ποσοστό το οποίο χρησιμοποιεί ο μέσος εγκέφαλος από την συνολική ενέργεια και οξυγόνο του σώματος;</string>
+    <string name="Wow_You_are_a_genius_">Ουαου! Είσαι μια ιδιοφυϊα!!!</string>
+    <string name="Your_score_is_">Το σκόρ σου είναι :</string>
+    <string name="_10_13">10 - 13 %</string>
+    <string name="_10_minutes">10 λεπτά</string>
+    <string name="_14_16">14 - 16 %</string>
+    <string name="_15">15%</string>
+    <string name="_15_minutes">15 λεπτά</string>
+    <string name="_20">20%</string>
+    <string name="_2_71_pounds">1.230 γραμμάρια</string>
+    <string name="_3_05_pounds">1.385 γραμμάρια</string>
+    <string name="_3_85_pounds">1.745 γραμμάρια</string>
+    <string name="_50">50%</string>
+    <string name="_5_minutes">5 λεπτά</string>
+    <string name="_8_10">8 - 10 %</string>
+    <string name="brain_ClipArt">Εικονίδιο_Εγκεφάλου</string>
+</resources>
